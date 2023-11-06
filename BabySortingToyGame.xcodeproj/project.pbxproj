@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3364A2AD2AF537CC0064CA9A /* drugproblem.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3364A2AC2AF537CC0064CA9A /* drugproblem.mp4 */; };
+		336DC1632AF3367F0019718A /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 336DC1622AF3367F0019718A /* giphy.gif */; };
+		336DC1652AF33F280019718A /* fits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336DC1642AF33F280019718A /* fits.mp3 */; };
+		336DC1672AF342830019718A /* biteof87.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336DC1662AF342830019718A /* biteof87.mp3 */; };
+		336DC16B2AF346A10019718A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336DC16A2AF346A10019718A /* ContentView.swift */; };
+		337D3B702AF34D4500F0BEB3 /* DaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D3B6F2AF34D4500F0BEB3 /* DaveView.swift */; };
+		337D3B752AF34FD100F0BEB3 /* whatsappwednesday.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 337D3B742AF34FD100F0BEB3 /* whatsappwednesday.mp4 */; };
+		339D305D2AF12F110026F756 /* ToyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D305C2AF12F110026F756 /* ToyContainer.swift */; };
+		339D305F2AF12FAE0026F756 /* ToyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D305E2AF12FAE0026F756 /* ToyViewModel.swift */; };
+		339D30662AF158CF0026F756 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 339D30652AF158CF0026F756 /* SDWebImageSwiftUI */; };
+		339D30682AF159D50026F756 /* stonecar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 339D30672AF159D50026F756 /* stonecar.gif */; };
+		339D306A2AF15AE50026F756 /* stonetamb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 339D30692AF15AE50026F756 /* stonetamb.gif */; };
+		339ED77C2AF3D39000ADF03C /* Dave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339ED77B2AF3D39000ADF03C /* Dave.swift */; };
+		339ED77E2AF3D94500ADF03C /* hellome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 339ED77D2AF3D94500ADF03C /* hellome.mp4 */; };
+		339ED7812AF3F79B00ADF03C /* hellomegif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 339ED7802AF3F79B00ADF03C /* hellomegif.gif */; };
+		339ED7832AF3FD7700ADF03C /* seriousproblem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339ED7822AF3FD7700ADF03C /* seriousproblem.mp3 */; };
+		339ED7852AF3FD7F00ADF03C /* watchhimbecomeagod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339ED7842AF3FD7F00ADF03C /* watchhimbecomeagod.mp3 */; };
+		339ED7882AF3FD8700ADF03C /* davelaser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339ED7862AF3FD8700ADF03C /* davelaser.mp3 */; };
+		339ED7892AF3FD8700ADF03C /* daveplums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339ED7872AF3FD8700ADF03C /* daveplums.mp3 */; };
+		339ED78B2AF3FD8F00ADF03C /* 40doubled.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339ED78A2AF3FD8F00ADF03C /* 40doubled.mp3 */; };
+		33CA07222AF006F2004D1C18 /* BabySortingToyGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA07212AF006F2004D1C18 /* BabySortingToyGameApp.swift */; };
+		33CA07262AF006F3004D1C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CA07252AF006F3004D1C18 /* Assets.xcassets */; };
+		33CA07292AF006F3004D1C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CA07282AF006F3004D1C18 /* Preview Assets.xcassets */; };
+		33CA07302AF00728004D1C18 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA072F2AF00728004D1C18 /* Toy.swift */; };
+		33CA07322AF0079D004D1C18 /* BabyToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA07312AF0079D004D1C18 /* BabyToyView.swift */; };
+		33CA07342AF007DA004D1C18 /* DraggableToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA07332AF007DA004D1C18 /* DraggableToy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3364A2AC2AF537CC0064CA9A /* drugproblem.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = drugproblem.mp4; sourceTree = "<group>"; };
+		336DC1622AF3367F0019718A /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		336DC1642AF33F280019718A /* fits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fits.mp3; sourceTree = "<group>"; };
+		336DC1662AF342830019718A /* biteof87.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = biteof87.mp3; sourceTree = "<group>"; };
+		336DC16A2AF346A10019718A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		337D3B6F2AF34D4500F0BEB3 /* DaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaveView.swift; sourceTree = "<group>"; };
+		337D3B742AF34FD100F0BEB3 /* whatsappwednesday.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = whatsappwednesday.mp4; sourceTree = "<group>"; };
+		339D305C2AF12F110026F756 /* ToyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyContainer.swift; sourceTree = "<group>"; };
+		339D305E2AF12FAE0026F756 /* ToyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyViewModel.swift; sourceTree = "<group>"; };
+		339D30672AF159D50026F756 /* stonecar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stonecar.gif; sourceTree = "<group>"; };
+		339D30692AF15AE50026F756 /* stonetamb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stonetamb.gif; sourceTree = "<group>"; };
+		339ED77B2AF3D39000ADF03C /* Dave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dave.swift; sourceTree = "<group>"; };
+		339ED77D2AF3D94500ADF03C /* hellome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hellome.mp4; sourceTree = "<group>"; };
+		339ED7802AF3F79B00ADF03C /* hellomegif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hellomegif.gif; sourceTree = "<group>"; };
+		339ED7822AF3FD7700ADF03C /* seriousproblem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seriousproblem.mp3; sourceTree = "<group>"; };
+		339ED7842AF3FD7F00ADF03C /* watchhimbecomeagod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = watchhimbecomeagod.mp3; sourceTree = "<group>"; };
+		339ED7862AF3FD8700ADF03C /* davelaser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = davelaser.mp3; sourceTree = "<group>"; };
+		339ED7872AF3FD8700ADF03C /* daveplums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daveplums.mp3; sourceTree = "<group>"; };
+		339ED78A2AF3FD8F00ADF03C /* 40doubled.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 40doubled.mp3; sourceTree = "<group>"; };
+		33CA071E2AF006F2004D1C18 /* BabySortingToyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySortingToyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CA07212AF006F2004D1C18 /* BabySortingToyGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySortingToyGameApp.swift; sourceTree = "<group>"; };
+		33CA07252AF006F3004D1C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CA07282AF006F3004D1C18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33CA072F2AF00728004D1C18 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		33CA07312AF0079D004D1C18 /* BabyToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyToyView.swift; sourceTree = "<group>"; };
+		33CA07332AF007DA004D1C18 /* DraggableToy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableToy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CA071B2AF006F2004D1C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D30662AF158CF0026F756 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336DC1692AF342940019718A /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				339ED7842AF3FD7F00ADF03C /* watchhimbecomeagod.mp3 */,
+				339ED7822AF3FD7700ADF03C /* seriousproblem.mp3 */,
+				336DC1642AF33F280019718A /* fits.mp3 */,
+				336DC1662AF342830019718A /* biteof87.mp3 */,
+				339ED7862AF3FD8700ADF03C /* davelaser.mp3 */,
+				339ED7872AF3FD8700ADF03C /* daveplums.mp3 */,
+				339ED78A2AF3FD8F00ADF03C /* 40doubled.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		339ED77F2AF3D94A00ADF03C /* video */ = {
+			isa = PBXGroup;
+			children = (
+				3364A2AC2AF537CC0064CA9A /* drugproblem.mp4 */,
+				339ED77D2AF3D94500ADF03C /* hellome.mp4 */,
+				337D3B742AF34FD100F0BEB3 /* whatsappwednesday.mp4 */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		33CA07152AF006F1004D1C18 = {
+			isa = PBXGroup;
+			children = (
+				33CA07202AF006F2004D1C18 /* BabySortingToyGame */,
+				33CA071F2AF006F2004D1C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CA071F2AF006F2004D1C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CA071E2AF006F2004D1C18 /* BabySortingToyGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CA07202AF006F2004D1C18 /* BabySortingToyGame */ = {
+			isa = PBXGroup;
+			children = (
+				33CA07212AF006F2004D1C18 /* BabySortingToyGameApp.swift */,
+				336DC16A2AF346A10019718A /* ContentView.swift */,
+				33CA07312AF0079D004D1C18 /* BabyToyView.swift */,
+				337D3B6F2AF34D4500F0BEB3 /* DaveView.swift */,
+				339D305C2AF12F110026F756 /* ToyContainer.swift */,
+				339D305E2AF12FAE0026F756 /* ToyViewModel.swift */,
+				33CA07332AF007DA004D1C18 /* DraggableToy.swift */,
+				33CA072F2AF00728004D1C18 /* Toy.swift */,
+				339ED77B2AF3D39000ADF03C /* Dave.swift */,
+				339D30672AF159D50026F756 /* stonecar.gif */,
+				339D30692AF15AE50026F756 /* stonetamb.gif */,
+				336DC1622AF3367F0019718A /* giphy.gif */,
+				339ED7802AF3F79B00ADF03C /* hellomegif.gif */,
+				339ED77F2AF3D94A00ADF03C /* video */,
+				336DC1692AF342940019718A /* audio */,
+				33CA07252AF006F3004D1C18 /* Assets.xcassets */,
+				33CA07272AF006F3004D1C18 /* Preview Content */,
+			);
+			path = BabySortingToyGame;
+			sourceTree = "<group>";
+		};
+		33CA07272AF006F3004D1C18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33CA07282AF006F3004D1C18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CA071D2AF006F2004D1C18 /* BabySortingToyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CA072C2AF006F3004D1C18 /* Build configuration list for PBXNativeTarget "BabySortingToyGame" */;
+			buildPhases = (
+				33CA071A2AF006F2004D1C18 /* Sources */,
+				33CA071B2AF006F2004D1C18 /* Frameworks */,
+				33CA071C2AF006F2004D1C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabySortingToyGame;
+			packageProductDependencies = (
+				339D30652AF158CF0026F756 /* SDWebImageSwiftUI */,
+			);
+			productName = BabySortingToyGame;
+			productReference = 33CA071E2AF006F2004D1C18 /* BabySortingToyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CA07162AF006F1004D1C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					33CA071D2AF006F2004D1C18 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 33CA07192AF006F1004D1C18 /* Build configuration list for PBXProject "BabySortingToyGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CA07152AF006F1004D1C18;
+			packageReferences = (
+				339D30642AF158CF0026F756 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 33CA071F2AF006F2004D1C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CA071D2AF006F2004D1C18 /* BabySortingToyGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CA071C2AF006F2004D1C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D3B752AF34FD100F0BEB3 /* whatsappwednesday.mp4 in Resources */,
+				3364A2AD2AF537CC0064CA9A /* drugproblem.mp4 in Resources */,
+				339ED7882AF3FD8700ADF03C /* davelaser.mp3 in Resources */,
+				339ED77E2AF3D94500ADF03C /* hellome.mp4 in Resources */,
+				336DC1632AF3367F0019718A /* giphy.gif in Resources */,
+				339D30682AF159D50026F756 /* stonecar.gif in Resources */,
+				336DC1652AF33F280019718A /* fits.mp3 in Resources */,
+				339ED7892AF3FD8700ADF03C /* daveplums.mp3 in Resources */,
+				33CA07292AF006F3004D1C18 /* Preview Assets.xcassets in Resources */,
+				339D306A2AF15AE50026F756 /* stonetamb.gif in Resources */,
+				339ED78B2AF3FD8F00ADF03C /* 40doubled.mp3 in Resources */,
+				339ED7852AF3FD7F00ADF03C /* watchhimbecomeagod.mp3 in Resources */,
+				33CA07262AF006F3004D1C18 /* Assets.xcassets in Resources */,
+				339ED7832AF3FD7700ADF03C /* seriousproblem.mp3 in Resources */,
+				336DC1672AF342830019718A /* biteof87.mp3 in Resources */,
+				339ED7812AF3F79B00ADF03C /* hellomegif.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CA071A2AF006F2004D1C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D305D2AF12F110026F756 /* ToyContainer.swift in Sources */,
+				33CA07322AF0079D004D1C18 /* BabyToyView.swift in Sources */,
+				336DC16B2AF346A10019718A /* ContentView.swift in Sources */,
+				33CA07302AF00728004D1C18 /* Toy.swift in Sources */,
+				337D3B702AF34D4500F0BEB3 /* DaveView.swift in Sources */,
+				339D305F2AF12FAE0026F756 /* ToyViewModel.swift in Sources */,
+				33CA07342AF007DA004D1C18 /* DraggableToy.swift in Sources */,
+				339ED77C2AF3D39000ADF03C /* Dave.swift in Sources */,
+				33CA07222AF006F2004D1C18 /* BabySortingToyGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33CA072A2AF006F3004D1C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33CA072B2AF006F3004D1C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CA072D2AF006F3004D1C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySortingToyGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.BabySortingToyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CA072E2AF006F3004D1C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySortingToyGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.BabySortingToyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CA07192AF006F1004D1C18 /* Build configuration list for PBXProject "BabySortingToyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CA072A2AF006F3004D1C18 /* Debug */,
+				33CA072B2AF006F3004D1C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CA072C2AF006F3004D1C18 /* Build configuration list for PBXNativeTarget "BabySortingToyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CA072D2AF006F3004D1C18 /* Debug */,
+				33CA072E2AF006F3004D1C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		339D30642AF158CF0026F756 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		339D30652AF158CF0026F756 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 339D30642AF158CF0026F756 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 33CA07162AF006F1004D1C18 /* Project object */;
+}
